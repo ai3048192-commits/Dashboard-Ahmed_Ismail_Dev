@@ -27,7 +27,7 @@ const menuItems: MenuItem[] = [
   { name: "المشاريع", icon: Briefcase, path: "/portfolio" },
   { name: "الشهادات", icon: Award, path: "/partners" },
   { name: "الإعدادات", icon: Settings, path: "/settings" },
-  { name: "زيارة الموقع", icon: Globe, path: "http://localhost:5174/" },
+  { name: "زيارة الموقع", icon: Globe, path: "https://ahmed-ismail-dev74-pink.vercel.app/" },
 ];
 
 interface SidebarProps {

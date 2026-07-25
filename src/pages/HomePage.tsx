@@ -260,15 +260,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            <Link
-              to="/portfolio/add"
-              className="flex items-center gap-2.5 px-6 py-3.5 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-bold text-sm rounded-2xl transition-all shadow-[0_0_25px_rgba(16,185,129,0.35)] hover:scale-[1.02]"
-            >
-              <Plus size={18} />
-              <span>إضافة مشروع جديد</span>
-            </Link>
-          </div>
+        
         </div>
       </div>
 

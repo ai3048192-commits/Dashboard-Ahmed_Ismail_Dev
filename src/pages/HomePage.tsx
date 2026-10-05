@@ -45,7 +45,15 @@ export default function HomePage() {
       color: "text-cyan-400",
       bg: "bg-cyan-500/10 border-cyan-500/20",
     },
-    
+    {
+      title: "زيارات البرتفوليو",
+      value: "0",
+      change: "+حي",
+      period: "جدول analytics",
+      icon: Eye,
+      color: "text-teal-400",
+      bg: "bg-teal-500/10 border-teal-500/20",
+    },
   ]);
 
   const [projects, setProjects] = useState([]);
@@ -54,6 +62,7 @@ export default function HomePage() {
   const [loadingMessages, setLoadingMessages] = useState(true);
   const [deletingId, setDeletingId] = useState(null);
   const [refreshing, setRefreshing] = useState(false);
+  const [portfolioViews, setPortfolioViews] = useState("0");
 
   // 2. دالة جلب البيانات من Supabase
   const fetchDashboardData = async () => {
